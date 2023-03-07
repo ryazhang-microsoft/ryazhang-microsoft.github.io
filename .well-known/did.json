@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:ryazhang-microsoft.github.io",
+  "assertionMethod": [
+    {
+      "id": "did:web:ryazhang-microsoft.github.io#9b54c40d3f4e62159f0d9f8be2955aabfa6ea23455d41c8d22ea3ac6f1aedad8",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:ryazhang-microsoft.github.io",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "WqosAgqDQ5cObXPWQTwgIBp2YD0k-M_HL0w4Gc5s0Lw=",
+        "y": "irMT6WiCwjuK0crbE4rMLzjoLM91hJ08ClnQwJfYqS0=",
+        "kid": "9b54c40d3f4e62159f0d9f8be2955aabfa6ea23455d41c8d22ea3ac6f1aedad8",
+        "alg": "ES256"
+      }
+    }
+  ]
+}
