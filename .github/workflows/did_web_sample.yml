@@ -1,4 +1,4 @@
-name: Sample #3: DID:web as claim issuer, with document hosted on Github Pages
+name: "Sample #3: DID:web as claim issuer, with document hosted on Github Pages"
 
 on: 
   push:
