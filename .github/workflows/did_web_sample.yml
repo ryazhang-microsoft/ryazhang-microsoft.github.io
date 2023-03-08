@@ -1,0 +1,23 @@
+name: Sample #3: DID:web as claim issuer, with document hosted on Github Pages
+
+on: 
+  push:
+    branches: master
+    
+env:
+  did_web_url: https://ryazhang-microsoft.github.io/.well-known/did.json
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+      packages: write
+    
+    steps:
+      - name: Install ORAS CLI
+        run: | 
+          git clone https://github.com/microsoft/scitt-ccf-ledger
+          cd scitt-ccf-ledger
+          pip install --disable-pip-version-check -q -e ./pyscitt
+
